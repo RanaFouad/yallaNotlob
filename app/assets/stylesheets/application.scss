@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body{
+
+ background: image-url('bg3.jpg');
+	
+}
+
+
+.navbar{
+	background-color: #663300; 
+}
+
+@font-face {
+      font-family: 'caviar_dreamsregular';
+      src: url(../fonts/CaviarDreams-webfont.ttf) format('truetype');
+	
+}
+
+nav li a:hover,nav li.active a{
+	color:#FFF;
+	text-shadow:4 1px 0 #222;
+}
+
+nav a {
+	 font-family: 'caviar_dreamsregular',bold;
+	 font-size:1.1em;
+	color:#A3793D;
+	 display: block;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;  /*Sets the text hover color on navbar*/
+}
+
+label{
+
+	font-size: 1.1em; 
+	font-family: 'caviar_dreamsregular',bold;
+	color:#000000;
+}
+
+
+
+a:hover {
+	color:#00F;
+	background-color: transparent ;
+	
+}
+
+
+h1 {
+ 	font-family: 'caviar_dreamsregular',bold;
+	font-size:3em;
+}
